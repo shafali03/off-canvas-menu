@@ -34,6 +34,10 @@ h1 {
   transition: transform 0.3s ease-out;
 }
 
+.offsite-is-open .offsite-nav-container,
+.offsite-is-open .site-container {
+  transform: translateX(14rem)
+}
 
 .site-container {
   padding-top: 3rem;
